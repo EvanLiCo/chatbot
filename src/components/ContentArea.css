@@ -1,0 +1,55 @@
+.content-area {
+  margin-left: 200px;
+  margin-top: 60px;
+  padding: 30px;
+  min-height: calc(100vh - 60px);
+  background-color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 60px);
+  position: relative;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.content-paragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.highlight {
+  background-color: #ffeb3b;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.no-results {
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .content-area {
+    margin-left: 150px;
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 24px;
+  }
+}
+
